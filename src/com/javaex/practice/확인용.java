@@ -1,24 +1,19 @@
 package com.javaex.practice;
 
+import java.util.Scanner;
+
 public class 확인용 {
 
 	public static void main(String[] args) {
 		
-		Scanner sc=new Scanner(System.in);
-		int age;
-		
-		System.out.println("나이를 입력해주세요");
-		System.out.print("나이: ");
-		age=sc.nextInt();
-		
-		if (age>20) {
-			System.out.print("\"1번그룹\"");
-		} else {
-			System.out.println("\'2번그룹\'");
-		}
-		System.out.println("입니다.");
-		
-		sc.close();
+		int i=1;
+		for (int num=2; i<=9; i++) {
+			System.out.println(num+" * "+i+" = "+num*i);
+		} for (int num=3; i<=9; i++) {
+			System.out.println(num+" * "+i+" = "+num*i);
+		} for (int num=4; i<=9; i++) {
+			System.out.println(num+" * "+i+" = "+num*i);
+		} 
 		
 			
 		}
