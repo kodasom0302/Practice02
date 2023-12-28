@@ -2,7 +2,10 @@ package com.javaex.practice;
 
 import java.util.Scanner;
 
-public class 확인용 {
+public class Ex10 {
+
+/*	
+두개의 숫자를 입력받아 큰수와 작은수를 분류하여 출력하세요
 
 	public static void main(String[] args) {
 		
@@ -18,10 +21,7 @@ public class 확인용 {
 		} else {
 			System.out.println("큰 수: "+num02+"	"+"작은 수: "+num01+" 입니다.");
 		}
-		
-		}
 
 	}
-
-
-//System.out.println();
+*/
+}
