@@ -6,24 +6,15 @@ public class 확인용 {
 
 	public static void main(String[] args) {
 		
-		Scanner sc=new Scanner(System.in);
-		System.out.println("숫자 3개를 입력해주세요");
-		System.out.print("숫자1: ");
-		int no01=sc.nextInt();
-		System.out.print("숫자2: ");
-		int no02=sc.nextInt();
-		System.out.print("숫자3: ");
-		int no03=sc.nextInt();
+		String[] dArray=new String[3];
 		
-		if (no01<no02 && no01<no03) {
-			System.out.println("가장 작은 수는 "+no01+" 입니다.");
-		} else if (no02<no01 && no02<no03) {
-			System.out.println("가장 작은 수는 "+no02+" 입니다.");
-		} else {
-			System.out.println("가장 작은 수는 "+no03+" 입니다.");
+		dArray[0]="A";
+		dArray[1]="B";
+		dArray[2]="C";
+		
+		for (int i=0; i<4; i++) {	//배열명[index] 축약 -> i
+			System.out.println(dArray[i]);
 		}
-		
-		sc.close();
 		
 		}
 
