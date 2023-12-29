@@ -1,8 +1,9 @@
 package com.javaex.practice;
 
-import java.util.Scanner;
+public class Ex11 {
 
-public class 확인용 {
+/*	
+두 개의 정수를 입력받아 큰수를 작은수로 나눈 몫과 나머지를 출력하는 프로그램을 작성하세요
 
 	public static void main(String[] args) {
 		
@@ -21,10 +22,7 @@ public class 확인용 {
 		}
 		
 		sc.close();
-		
-		}
 
 	}
-
-
-//System.out.println();
+*/
+}
