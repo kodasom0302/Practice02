@@ -19,7 +19,27 @@ public class Ex17 {
 		
 		switch (revenue) {
 			case (0<=revenue<=1000) :
+				tax=0.09*revenue
+				break;
 				
+			case (1000<revenue<=4000) :
+				tax=1000*0.09 + 0.18*(revenue-1000)
+				break;
+				
+			case (4000<revenue<8000) :
+				tax=1000*0.09 + 3000*0.18 + 0.27*(revenue-4000)
+				break;
+				
+			case (8000=<revenue) :
+				tax=1000*0.09 + 3000*0.18 + 4000*0.27 + 0.36*(revenue-8000)
+				break;
+				
+			default :
+				System.out.println();
+				break;
+		}
+		
+				System.out.println("소득세는 "+tax+" 입니다.");
 			
 			sc.close();
 
