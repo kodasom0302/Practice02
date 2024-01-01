@@ -14,7 +14,7 @@ public class Ex17 {
 		
 		Scanner sc=new Scanner(System.in);
 		System.out.println("수익을 입력해 주세요");
-		System.out.print();
+		System.out.print("금익: ");
 		double revenue=sc.nextDouble();
 		
 		if (0=<revenue && revenue=<1000) {
