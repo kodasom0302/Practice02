@@ -13,7 +13,7 @@ public class Ex17 {
 	public static void main(String[] args) {
 		
 		Scanner sc=new Scanner(System.in);
-		System.out.println();
+		System.out.println("수익을 입력해 주세요");
 		System.out.print();
 		double revenue=sc.nextDouble();
 		
@@ -22,7 +22,16 @@ public class Ex17 {
 		} else if (1000<revenue && revenue<=4000) {
 			double tax=1000*0.09+0.18*(revenue)-1000)
 		} else if (4000<revenue && revenue<8000) {
-			double tax=
+			double tax=1000*0.09+3000*0.18*0.27*(revenue-4000)
+		} else if (8000=<revenue) {
+			double tax=1000*0.09+3000*0.18+4000*0.27+0.36*(revenue-8000)
+		} else {
+			System.out.println();
+		}
+		
+			System.out.println();
+			
+			sc.close();
 
 	}
 */
