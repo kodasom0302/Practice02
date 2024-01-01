@@ -26,7 +26,7 @@ public class Ex17 {
 		} else if (8000=<revenue) {
 			double tax=1000*0.09+3000*0.18+4000*0.27+0.36*(revenue-8000)
 		} else {
-			System.out.println();
+			System.out.println("잘못 입력했습니다.");
 		}
 		
 			System.out.println();
