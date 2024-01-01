@@ -29,7 +29,7 @@ public class Ex17 {
 			System.out.println("잘못 입력했습니다.");
 		}
 		
-			System.out.println();
+			System.out.println("소득세는 "+tax+" 입니다.");
 			
 			sc.close();
 
